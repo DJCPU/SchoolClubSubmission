@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>2018 CPU Registration</title>
+</head>
+<body>
+<div class="apply-form">
+    <div class="top_banner">
+        <!-- <img src="/img/cpu.banner_top.jpg"/> -->
+    </div>
+    <div class="header">
+        <h1>CPU</h1>
+        <span>안녕하세요? 대전중앙고등학교 컴퓨터동아리 CPU입니다.</span><br/>
+        <span>아래의 입력 폼에 정보를 정확히 기재해주세요.</span>
+    </div>
+    <hr/>
+    <div class="modal-body">
+        <div class="form-row">
+            <div class="col">
+                <div class="form-group">
+                    <label>학년/반/번호</label>
+                    <div class="form-row">
+                        <div class="col">
+                            <select name="grade" id="grade" class="form-control">
+                                <option value="1">1학년</option>
+                                <option value="2">2학년</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <select name="class" id="class" class="form-control">
+                                <option value="1">1반</option>
+                                <option value="2">2반</option>
+                                <option value="3">3반</option>
+                                <option value="4">4반</option>
+                                <option value="5">5반</option>
+                                <option value="6">6반</option>
+                                <option value="7">7반</option>
+                                <option value="8">8반</option>
+                                <option value="9">9반</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control" name="number" id="number" placeholder="번호"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="name">이름</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="홍길동" autofocus
+                           maxlength="5">
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="phone">전화번호</label>
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="010-1234-5678"/>
+                </div>
+            </div>
+            <div class="col">
+                <br/>
+                <label>본인의 전화번호가 없다면 연락받을 수 있는 부모님이나 친구의 전화번호를 적어주세요.</label>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="email">이메일</label>
+                    <input type="email" class="form-control" id="email" name="email"/>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <button class="btn btn-primary" id="submit_button">신청</button>
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/apply_form.css"/>
+<script src="/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/apply.js"></script>
+
+</body>
+</html>

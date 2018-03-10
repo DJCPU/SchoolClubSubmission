@@ -1,0 +1,25 @@
+body {
+    background: #f7f7f7;
+}
+
+.apply-form {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    height: auto;
+    width: 60%;
+
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.top_banner {
+    margin: auto;
+    text-align: center;
+}
+
+.top_banner img {
+     height: 15%;
+     width: auto;
+ }
